@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "ACGA,OAAO,CAAC,+EAAI;AAGZ,OAAO,CAAC,oFAAI;AAGZ,AAAA,IAAI,CAAA;EACD,WAAW,EAAE,wBAAwB;CACvC;;ADVD,AAAA,CAAC,CAAA;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACxB",
+    "sources": [
+        "needful.scss",
+        "_fonts.scss",
+        "_header.scss",
+        "_footer.scss"
+    ],
+    "names": [],
+    "file": "needful.css"
+}

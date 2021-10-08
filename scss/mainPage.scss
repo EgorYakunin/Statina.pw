@@ -166,8 +166,6 @@ body{
     color: #012349;
     margin: 20px 0px;
 }
-.colomn1-img {
-}
 .colomn1-arrow {
     margin-top: 640px;
     width: 200px;
@@ -178,9 +176,6 @@ body{
     flex-direction: column;
     padding: 0px 20px;
     align-items: center;
-}
-.colomn2-img {
-
 }
 .colomn2-arrow {
     width: 200px;
@@ -195,8 +190,6 @@ body{
 .colomn3-arrow {
     width: 300px;
     margin-top: 300px;
-}
-.colomn3-img {
 }
 .img-group{
     margin-top: 250px;
@@ -233,8 +226,6 @@ body{
             font-size: 24px;
             line-height: 60px;
 		}
-}
-.title {
 }
 .rating {
     margin: 100px 0px;
@@ -356,29 +347,29 @@ body{
 
 
 .whats-up {
-   margin: 150px 0px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   .title{
-      text-align: center;
-      font-size: 40px;
-      color: #012349;
-   }
-   a{
-      text-decoration: none;
-   }
+    margin: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title{
+        text-align: center;
+        font-size: 40px;
+        color: #012349;
+    }
+    a{
+        text-decoration: none;
+    }
    // .whats-up__subtitle
 
-   &__subtitle {
-      margin: 30px 0px;
-      font-weight: normal;
-      font-size: 25px;
-      color: #012349;
-      letter-spacing: 5px;
-      text-align: center;
-   }
+    &__subtitle {
+    margin: 30px 0px;
+    font-weight: normal;
+    font-size: 25px;
+    color: #012349;
+    letter-spacing: 5px;
+    text-align: center;
+    }
 
    // .whats-up__button
 
@@ -509,16 +500,13 @@ footer{
    .colomn1-arrow, .colomn2-arrow, .colomn3-arrow{
        display: none;
    }
-   .photos{
-       flex-direction: column;
-   }
-   .img-group{
-       margin-top: 20px;
-       width: 361px;
-   }
-   .width361{
-       width: 361px;
-   }
+//    .img-group{
+//        margin-top: 20px;
+//        width: 361px;
+//    }
+//    .width361{
+//        width: 361px;
+//    }
 }
 @media screen and (max-width: 750px){
     .rating-form{
@@ -535,12 +523,44 @@ footer{
     .whats-up__subtitle{
         font-size: 20px;
     }
+    .img-group{
+        margin-top: 15px;
+        width: 200px;
+    }
+    .width200{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .rating-form{
+        width: 100%;
+        margin-top: 100px;
+        padding: 0px;
+    }
+    .main-title{
+        font-size: 60px;
+    }
+    .whats-up .title{
+        font-size: 30px;
+    }
+    .whats-up__subtitle{
+        font-size: 20px;
+    }
+    .img-group{
+        margin-top: 15px;
+        width: 100px;
+    }
+    .width100{
+        width: 100px;
+    }
 }
 
 @media screen and (max-width: 600px){
     .scheme-mobile{    
         padding: 0px;
     }
+    
 }
 
 @media screen and (max-width: 520px){
@@ -605,7 +625,7 @@ footer{
     .img-group{
         width: 100%;
     }
-    .width361{
+    .width100{
         width: 100%;       
     }
     .whats-up{
@@ -616,5 +636,21 @@ footer{
 @media screen and (max-width: 450px){
     .contact-option{
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .colomn1-arrow, .colomn2-arrow, .colomn3-arrow{
+        display: none;
+    }
+    .photos{
+        flex-direction: column;
+    }
+    .img-group{
+        margin-top: 15px;
+        width: 300px;
+    }
+    .width300{
+        width: 300px;
     }
 }
