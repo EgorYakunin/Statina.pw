@@ -23,9 +23,18 @@ $(document).ready(function () {
 
     // smoothScroll('.scroll-to', 2000);
     
-    var scrollButton = document.querySelector('.scroll-button');
+    var scrollButton = document.querySelector('.grade-scroll');
     scrollButton.addEventListener('click', function () {
-        smoothScroll('.scroll-to', 2000);
+        smoothScroll('.scroll-to_grade', 1000);
     });
 
+    var scrollButton = document.querySelector('.contacts-scroll');
+    scrollButton.addEventListener('click', function () {
+        smoothScroll('.scroll-to_contacts', 1000);
+    });
+
+    var scrollButton = document.querySelector('.aboutUs-scroll');
+    scrollButton.addEventListener('click', function () {
+        smoothScroll('.scroll-to_aboutUs', 1000);
+    });
 });

@@ -1,11 +1,15 @@
-//! GOOGLE FONTS LINK
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-//? Cormorant Garamond
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
-// font-family: 'Cormorant Garamond', serif;
 //? Montserrat
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
-//font-family: 'Montserrat', sans-serif;
+@font-face {
+   font-family: Montserrat;
+   src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+   font-weight: normal;
+}
+
+//? Cormorant Garamond
+@font-face {
+   font-family: Cormorant Garamond;
+   src: url('../fonts/Garamond/CormorantGaramond-Regular.ttf');
+}
 
 body{
    font-family: 'Montserrat', sans-serif;
